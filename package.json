@@ -23,6 +23,10 @@
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
     "@nestjs/platform-express": "^11.0.1",
+    "@temporalio/activity": "^1.18.1",
+    "@temporalio/client": "^1.18.1",
+    "@temporalio/worker": "^1.18.1",
+    "@temporalio/workflow": "^1.18.1",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1"
   },
@@ -67,5 +71,11 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "allowScripts": {
+    "@swc/core@1.15.43": true,
+    "fsevents@2.3.3": true,
+    "protobufjs@7.6.4": true,
+    "unrs-resolver@1.12.2": true
   }
 }
